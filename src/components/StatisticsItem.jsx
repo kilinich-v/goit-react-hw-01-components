@@ -13,7 +13,6 @@ StatisticsItem.defaultProps = {
 
 };
 
-
 StatisticsItem.propTypes = {
     label: PropTypes.string.isRequired,
     percentage: PropTypes.number,
