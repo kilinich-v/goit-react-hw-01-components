@@ -1,0 +1,41 @@
+.statistics {
+  width: 250px;
+  border-radius: 4px;
+  background-color: rgb(190, 190, 190);
+
+  .title {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .stat-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 4);
+    padding: 5px;
+    text-align: center;
+    border: 1px rgb(190, 190, 190) solid;
+    border-collapse: collapse;
+    background-color: rgb(226, 226, 226);
+
+    &:first-child {
+      border-radius: 0 0 0 4px;
+    }
+
+    &:last-child {
+      border-radius: 0 0 4px 0;
+    }
+  }
+}

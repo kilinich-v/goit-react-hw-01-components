@@ -1,1 +1,10 @@
 @import './scss/profile.scss';
+@import './scss/statistics';
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  padding-inline-start: 0;
+}
