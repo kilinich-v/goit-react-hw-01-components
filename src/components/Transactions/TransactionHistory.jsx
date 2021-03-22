@@ -1,4 +1,5 @@
-import transactions from '../data/transactions.json';
+import './transactions.scss';
+import transactions from '../../data/transactions.json';
 import TransactionHistoryHead from './TransactionHistoryHead';
 import Transaction from './Transaction';
 

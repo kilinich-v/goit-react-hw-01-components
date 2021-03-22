@@ -1,4 +1,5 @@
-import friends from '../data/friends.json';
+import './friends.scss';
+import friends from '../../data/friends.json';
 import Friend from './Friend';
 
 const FriendList = () => (

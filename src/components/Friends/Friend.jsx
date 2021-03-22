@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import avatarDefault from '../img/avatar-placeholder.png';
+import avatarDefault from '../../img/avatar-placeholder.png';
 
 const Friend = ({ avatar, name, isOnline }) => {
     const online = isOnline ? 'isOnline' : null;

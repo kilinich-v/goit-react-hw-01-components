@@ -1,5 +1,6 @@
+import './statistics.scss';
 import StatisticsItem from './StatisticsItem';
-import statisticalData from '../data/statistics-data.json';
+import statisticalData from '../../data/statistics-data.json';
 
 const StatisticsList = () => (
     <ul className="stat-list">

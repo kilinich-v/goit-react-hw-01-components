@@ -1,6 +1,7 @@
+import './profile.scss';
 import ProfileStatsList from './ProfileStatsList';
 import ProfileDescription from './ProfileDescription';
-import profileData from '../data/profile.json';
+import profileData from '../../data/profile.json';
 
 const Profile = () => {
     const { name, tag, location, avatar, stats } = profileData;

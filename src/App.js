@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 import './styles.scss';
-import Profile from './components/Profile';
-import Statistics from './components/Statistics';
-import FriendList from './components/FriendList';
-import TransactionHistory from './components/TransactionHistory';
+import Profile from './components/Profile/Profile';
+import Statistics from './components/Statistics/Statistics';
+import FriendList from './components/Friends/FriendList';
+import TransactionHistory from './components/Transactions/TransactionHistory';
 
 const App = () => (
   <Fragment>
