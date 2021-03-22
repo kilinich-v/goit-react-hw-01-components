@@ -8,12 +8,12 @@ const StatsItem = ({ statName, stats }) => (
 );
 
 StatsItem.defaultProps = {
-    stats: '--',
+    stats: 0,
 }
 
 StatsItem.propTypes = {
     statName: PropTypes.string.isRequired,
-    stats: PropTypes.number,
+    stats: PropTypes.number.isRequired,
 };
 
 export default StatsItem;
